@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+*{
+    user-select: none;
+}
+h1{
+    margin: 120px auto;
+    color: #333;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+a{
+    display: inline-block; width: 160px; height: 45px;
+    text-decoration: none; color: white; margin: 20px;
+    background-color: #333; line-height: 45px;
+    font-family: sans-serif; border-radius: 45px;
+    font-size: 17px; transition: all 0.3s;
+}
+a:hover{
+    background-color: #fff; color: #333;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+}
